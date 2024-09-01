@@ -79,7 +79,7 @@ const ryoroyko = ryoroykoConnect({
 })
 
     if (usePairingCode && !ryoroyko.authState.creds.registered) {
-    say(`𝚸𝚫𝚻𝚪𝚯𝚴\n𝛁1\n`, {
+    say(`PATRON\nV1\n`, {
         font: 'block',
         align: 'center',
         gradient: [randomcolor, randomcolor]
@@ -230,7 +230,7 @@ ryoroyko.setStatus = (status) => {
             }
             
             if (update.connection == "open" || update.receivedPendingNotifications == "true") {
-    say(`𝚸𝚫𝚻𝚪𝚯𝚴\n𝛁1\n`, {
+    say(`PATRON\nV1\n`, {
         font: 'block',
         align: 'center',
         gradient: [randomcolor, randomcolor]
@@ -242,7 +242,7 @@ ryoroyko.setStatus = (status) => {
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`2348133729715@s.whatsapp.net`, { text: `*[🚹] •𝚸𝚫𝚻𝚪𝚯𝚴 𝛁1 𝚩𝐔𝐆 CONNECTED✅*`})
+ryoroyko.sendMessage(`2347041039367@s.whatsapp.net`, { text: `*[🚹] •𝚸𝚫𝚻𝚪𝚯𝚴 𝛁1 𝚩𝐔𝐆 CONNECTED✅*`})
             }
 
         } catch (err) {
